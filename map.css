@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Ubuntu:wght@300;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f0f0;
+  color: white;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.navbar {
+  display: flex;
+  background-color: #060606;
+  position: sticky;
+  top: 0px;
+  height: 80px;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.topleft {
+  width: 50%;
+  padding: 10px 0;
+}
+
+.topright {
+  width: 50%;
+  padding: 10px 0;
+}
+
+.logo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+}
+.logo span {
+  color: #dc66e0;
+}
+
+.para{
+  color: #db44e0;
+  font-family: "Ubuntu", sans-serif;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.para span{
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 1px 6px;
+  font-size: 1.8rem;
+}
+
+
+/* map css */
+#map{
+  height: 78vh;
+  width: 80vw;
+}
+
+
+
+
+
+/* hover effect  */
+
+.navbar li a:hover {
+  color: #dc66e0;
+  transition: 0.2s;
+}
+
+.navbar-links ul li a:hover {
+  border-bottom: 2px solid #db44e0;
+  padding-bottom: 5px;
+}
+
+.navbar li .hovered{
+  color: #dc66e0;
+  border-bottom: 2px solid #db44e0;
+  padding-bottom: 5px;
+}
+
+
+
+/*  utils  */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.p_btw {
+  padding: 0 20px;
+}
+

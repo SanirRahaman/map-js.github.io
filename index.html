@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Globe</title>
+  </head>
+  <link rel="stylesheet" href="map.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""
+  />
+  <script
+    src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""
+  ></script>
+
+  <body>
+    <!----------------- navbar section ------------->
+    <header>
+      <nav class="navbar flex justify-between p_btw">
+        <div class="flex items-center logo">Map<span>.io</span></div>
+        <a href="#" class="toggle-button flex-col justify-between">
+          <span class="bar"></span>
+          <span class="bar bar_middle"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="flex navbar-links">
+          <ul class="flex items-center">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Vision</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a class="hovered" href="#">Login </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header> 
+    <!----------------- navbar section ------------->
+      <section class="flex justify-center">
+        <div class="para">
+          <span>Phoenix</span> Labs operates a high-growth platform that enables our global
+          network to innovate and execute. We build, expand, and improve upon
+          world-class AI, Crypto, and web/mobile application initiatives.
+        </div>
+      </section>
+      <section class="flex justify-center">
+      <div id="map"></div>
+    </section>
+    <script src="map.js"></script>
+  </body>
+</html>
